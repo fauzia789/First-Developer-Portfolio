@@ -168,10 +168,36 @@ main section {
   font-weight: 700;
   margin-bottom: 10px;
 }
-.resume-container hr{
-    margin: 30px;
+.resume-container hr {
+  margin: 30px;
 }
-.download-cv{
-    text-align: center;
-    margin-top: 50px;
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
+}
+/* footer style */
+footer {
+  display: flex;
+  background: #fff8f3;
+  padding: 130px 200px;
+  margin-top: 100px;
+  gap: 100px;
+}
+.footer-item {
+  width: 50%;
+}
+.social-link a{
+    margin-right: 25px;
+     
+}
+.contact input[type="text"],.contact input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  width: 100%;
 }
